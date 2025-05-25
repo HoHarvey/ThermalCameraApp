@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
         //cameraHandler.stopDiscovery(discoveryStatusListener);
 
         if (connectedIdentity != null) {
-            Log.d(TAG, "connect(), in *this* code sample we only support one camera connection at the time");
-            showMessage.show("connect(), in *this* code sample we only support one camera connection at the time");
+            Log.d(TAG, "connect(), in *this* code we only support one camera connection at the time");
+            showMessage.show("connect(), in *this* code we only support one camera connection at the time");
             return;
         }
 
